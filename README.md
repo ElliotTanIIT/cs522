@@ -7,11 +7,11 @@ Data set used:
 https://www.kaggle.com/mrmorj/hate-speech-and-offensive-language-dataset
 
 Tools used:
-Python (ipynb)
-Numpy
-SVM
-BERT
-GPT-2
+Python (ipynb),
+Numpy,
+SVM,
+BERT,
+GPT-2, 
 Microsoft Excel
 
 
