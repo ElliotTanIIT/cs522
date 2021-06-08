@@ -14,6 +14,9 @@ https://www.kaggle.com/mrmorj/hate-speech-and-offensive-language-dataset
 
 This data set contained over 24000 tweets that were classified into hate speech, offensive language, or neither.
 
+### GPT-2
+Generative Pre-trained Transformer 2 is basically a model that has been trained to learn relationships between words using a large amount of language data from the web. The model is able to take a sequence of words as input and create human-like text that is supposed to be a continuation of the inputted text.
+
 ### SVM
 Support Vector Machine essentially creates a line (or hyperplane) that divides and classifies the data. It makes sure that this line is as far away as possible from each of the closest data points on either side in order to find the best line. Tuning parameters include: C (higher C means higher accuracy for the training model), Gamma (higher Gamma means more influence from the points closer to the hyperplane than those further away). SVM is not specialized for NLP and does not contain its own dictionary.
 
