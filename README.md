@@ -27,8 +27,8 @@ Support Vector Machine essentially creates a line (or hyperplane) that divides a
 ### BERT
 Bidirectional Encoder Representations from Transformers is a natural language processor. It takes text and learns contextual relations between the words in order to make predictions. BERT employs 2 strategies in its training: Masked LM (MLM), and Next Sequence Prediction (NSP). In MLM, BERT masks some percentage of the words getting fed into the trainer and then tries to predict those masked words based on what it has seen. This makes BERT more robust to noise. In NSP, pairs of sentences are sent as input. Part of the input pairs are sequential sentences (one follows the other and they are connected in some way), while the other part of input pairs has 2 disconnected sentences. BERT learns to predict if the second sentence in the pair is the subsequent sentence in the original document. BERT comes with its own corpus of words since it has already been trained.
 
-### Results
-What we discovered is that GPT-2 generated text actually does improve the accuracy of the models we built using SVM and BERT by about 5% - 15% over different , given that the input to GPT-2 is sufficiently processed. Another finding is that BERT out performs SVM in almost all classification categories by at least 10% for all input sizes.
+### Is Generated Text Effective For Training?
+What we discovered is that GPT-2 generated text actually does improve the accuracy of the models we built using SVM and BERT by about 5% - 15% over different , given that the input to GPT-2 is sufficiently processed. Another finding is that BERT out performs SVM in almost all classification categories by at least 10% for all input sizes. If we had more time we would have performed more rigorous testing with larger data sets and repeated the experiment with another random distribution of data as the input, but because of our current results, we would recommend companies looking to train hate speech classifiers to consider using GPT-2 generated data as it is more cost effective than scraping their own data on the web.
 
 ### Tools used
 Python (ipynb),
