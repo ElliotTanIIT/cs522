@@ -11,7 +11,7 @@ The models we built use SVM and BERT. We compared the effects of different amoun
 
 Input sizes of 200, 500, 1000, and 2000, were used to train BERT and SVM model experiments. For each experiment, 2 models were created. One model took in purely original input data, and the other took in text that had been generated using the base 200 rows of data. For example, for a set of 1000 rows, 200 would be original data and 800 would be GPT-2 generated data. The input were randomly selected from the original data set.
 
-The models were tested on rows from the data set that had been partitioned off and unused during the training phase.
+The models were tested on rows from the data set that had been partitioned off and unused during the training phase. Both SVM and BERT were largely untuned for experiment consistency
 
 ### Data set used
 https://www.kaggle.com/mrmorj/hate-speech-and-offensive-language-dataset
